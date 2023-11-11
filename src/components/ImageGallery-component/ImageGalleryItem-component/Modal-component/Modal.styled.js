@@ -7,20 +7,19 @@ export const LargeImg = styled.img`
 
 export const ButtonModal = styled.button`
   position: absolute;
-  top: 50px;
-  right: 50px;
+  top: 40px;
+  right: 40px;
   border: none;
   background: none;
   cursor: pointer;
-  color: #000;
-  stroke: #000;
 `;
 
 export const CloseIcon = styled(AiFillCloseCircle)`
   fill: #fff;
-  stroke-width: 5px;
-  width: 35px;
-  height: 35px;
+  stroke: #020202;
+  stroke-width: 20px;
+  width: 40px;
+  height: 40px;
 `;
 
 export const Wrapper = styled.div`
